@@ -1,0 +1,30 @@
+Functions are: 
+void display()
+int add(int x, int y)
+int main()
+Number of functions: 3
+
+Number of Function Calls: 9
+
+If/For/While/Switch-Cases: 
+Found at Line number: 18
+if(addition == 10)
+Found at Line number: 25
+case 3:
+Found at Line number: 29
+default:
+Found at Line number: 33
+for(int i = 0; i < 10; i++)
+Found at Line number: 39
+while(i--)
+Found at Line number: 45
+do
+Number of For 1
+Number of While 1
+Number of Do 1
+Number of If 1
+Number of Case 2
+
+stdio.h
+Number of header files are: 1
+
