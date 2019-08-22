@@ -4,9 +4,12 @@ import java.util.regex.*;
 
 public class IIT2017503_2{
     public static void main(String[] args) throws Exception{
-        File file = new File("/home/beaku/Documents/SOE/IIT2017020/input2.c");
+        File file = new File("/home/beaku/Documents/SOE/Lab 1/input2.c");
 
         BufferedReader br = new BufferedReader(new FileReader(file));
+        PrintStream out = new PrintStream(new File("IIT2017020.txt"));
+        PrintStream console = System.out;
+        System.setOut(out);
 
         String st;
         int ans = 0;
